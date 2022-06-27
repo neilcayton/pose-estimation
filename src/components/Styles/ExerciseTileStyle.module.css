@@ -1,0 +1,31 @@
+.mainContainer {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* flex-grow: 1; */
+   /* flex-shrink: 1; */
+   align-items: center;
+   background-color: white;
+
+   width: 20%;
+   height: 30%;
+   min-width: 140px;
+   max-width: 200px;
+
+   margin: 3%;
+   align-content: flex-end;
+   border-radius: 25px;
+   cursor: pointer;
+}
+
+.img {
+   /* flex-grow: 1; */
+   /* max-width: 230%; */
+   height: 60%;
+   /* max-width: 20em; */
+}
+
+.pushUp {
+   height: 40%;
+}

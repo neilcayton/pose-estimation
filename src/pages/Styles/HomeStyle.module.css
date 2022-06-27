@@ -1,0 +1,27 @@
+.home {
+   position: fixed;
+   display: flex;
+   flex-direction: column;
+
+   background-color: #C7B8F5;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.tilesContainer {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   height: 90%;
+
+   overflow-y: scroll;
+   justify-content: center;
+   align-items: flex-start;
+   background-color: #C7B8F5;
+   padding: 40px;
+}

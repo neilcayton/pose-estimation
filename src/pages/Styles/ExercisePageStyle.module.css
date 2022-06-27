@@ -1,0 +1,121 @@
+.mainContainer {
+   display: flex;
+   position: fixed;
+   flex-direction: column;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background-color: white;
+}
+
+.topContainer {
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   background-color: #F5CEB8;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.cameraContainer {
+   /* width: 413;
+    height: 500;
+    flex-grow: .7;
+    margin-left: "auto";
+    margin-right: "auto";
+    left: 0;
+    right: 0;
+    text-align: "center"; */
+
+   /* opacity: 40%; */
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* align-content: center; */
+   /* vertical-align: middle; */
+}
+
+.bottomContainer {
+   display: flex;
+   flex-direction: column;
+   flex-grow: .5;
+   background-color: #ffff;
+   justify-content: center;
+   align-items: center;
+}
+
+.textFormat {
+   font-size: 250%;
+   font-family: 'Adobe Gothic Std';
+   font-weight: bold;
+   line-height: 1.3em;
+   padding: 40px;
+   color: aliceblue;
+   text-shadow: 2px 2px rgb(0, 0, 0);
+   text-align: center;
+}
+
+.textFormat2 {
+   font-size: 200%;
+   font-family: 'Adobe Gothic Std';
+   font-weight: bold;
+   line-height: 1.3em;
+   margin-bottom: 20px;
+   color: rgb(0, 0, 0);
+   text-shadow: 2px 2px rgb(255, 255, 255);
+
+}
+
+.goButton {
+   background-color: #5BD18A;
+   display: inline-flex;
+
+   text-align: center;
+   padding: 1px 60px;
+   font-family: "Adobe Gothic Std";
+   font-size: 200%;
+   font-weight: 500;
+   border-radius: 50px;
+   color: azure;
+}
+
+.modalContainer {
+   display: flex;
+   opacity: 1;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1000;
+   background-color: black;
+
+   justify-content: center;
+
+
+
+}
+
+.modal {
+   background-color: white;
+   opacity: 100%;
+   word-wrap: break-word;
+   border-radius: 20px;
+   text-align: center;
+   padding: 10%;
+   align-self: center;
+   width: 50%;
+}
+
+.okButton {
+   background-color: #5BD18A;
+   display: inline-flex;
+   line-height: 2;
+   text-align: center;
+   padding: 1px 60px;
+   font-family: "Adobe Gothic Std";
+   font-size: 200%;
+   font-weight: 500;
+   border-radius: 50px;
+   color: azure;
+}

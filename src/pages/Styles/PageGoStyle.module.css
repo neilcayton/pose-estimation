@@ -1,0 +1,67 @@
+.mainContainer{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+}   
+.topContainer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1.2;
+    background-color: #F5CEB8;
+    justify-content: center;
+    align-items: center;
+}
+.textContainer {
+    display: flex;
+    align-items: flex-start;
+    /* margin-bottom: 10%; */
+}
+.textFormat{
+    font-size: 250%;
+    font-family: 'Adobe Gothic Std';
+    font-weight: bold;
+    line-height: 1.3em;
+    padding: 40px;
+    text-shadow: 2px 2px  #fff;
+
+}
+.imgContainer {
+    display: flex;
+    width: 75%;
+    align-content: center;
+    justify-content: center;
+}
+.imageStyle {
+    height: 100%;
+    width: 100%; 
+    border-style: solid;
+    flex-grow: 1;
+    border-radius: 30px ;
+    border-color: #C7B8F5 ;
+    border-width: 5px;
+}
+
+.bottomContainer{
+    display: flex;
+    flex-grow: 1;
+    background-color: #ffff;
+    justify-content: center;
+    align-items: center;   
+}
+.goButton {
+    background-color: #5BD18A ;
+    display: inline-flex;
+    line-height: 2;
+    text-align: center;
+    padding: 1px 60px;
+    font-family: "Adobe Gothic Std";
+    font-size: 200%;
+    font-weight: 500;
+    border-radius: 50px;
+    color: azure;
+}
