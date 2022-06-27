@@ -2,7 +2,7 @@
   "homepage": "http://neilcayton.github.io/pose-estimation",
   "name": "client",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
@@ -47,6 +47,5 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
